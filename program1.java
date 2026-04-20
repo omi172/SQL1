@@ -49,13 +49,13 @@ public class InsertEmployeeData {
               if (pstmt != null)
                 pstmt.close(); 
             } catch (SQLException e) {
-              System.out.println(e);
+              System.out.println(e.getMessage());
             }
             try { 
               if (conn != null) 
                 conn.close(); 
             } catch (SQLException e) {
-              System.out.println(e);
+              System.out.println(e.getMessage());
             }
         }
     }
