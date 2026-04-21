@@ -95,4 +95,8 @@ MONGO DB
 		
 10> Delete the products which product price value are 28
 
-		db.products.deleteMany({ product_price: 28.00 });
+		db.products.deleteMany(
+		   { 
+		      product_price: 28.00 
+		   }
+		);
